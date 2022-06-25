@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body {
+    background-color: rgb(26, 25, 46);
+    font-family: 'Poppins';
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: 4rem;
+    border-radius: 20px;
+}
+.question-container {
+    color:white;
+    background-color: rgb(130,36,218);
+    border-radius: 20px;
+    padding: 20px 80px;
+    padding-bottom: 3rem;
+    box-shadow: 25px 25px 7px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.question-text{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+button {
+    font-family: 'Poppins';
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border-style: none;
+    background-color: white;
+    border: 6px solid rgb(166,94,233);
+    color: rgb(130,36,218);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s all;
+}
+button:hover{
+    transition: .5s all;
+    box-shadow: 15px 15px 7px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+}
+button:active{
+    background-color: rgb(218, 218, 218);
+}
+.right-answer {
+    transition: .5s all;
+    color: rgb(20, 133, 45);
+    border: 6px solid rgb(69, 204, 98);
+}
